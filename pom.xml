@@ -254,13 +254,13 @@
         </dependency>
         <!-- cglib enhancer end -->
 
-        <!-- Javaee API -->
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>6.0</version>
-            <scope>provided</scope>
-        </dependency>
+	<!-- Javaee API provides only interfaces; need implementations of Servlet -->
+	<dependency>
+		<groupId>org.apache.tomee</groupId>
+		<artifactId>javaee-api</artifactId>
+		<version>7.0</version>
+	</dependency>
+
 
         <!-- Spring Start -->
         <dependency>
