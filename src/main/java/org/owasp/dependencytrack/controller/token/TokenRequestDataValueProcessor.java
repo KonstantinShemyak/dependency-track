@@ -51,9 +51,10 @@ public class TokenRequestDataValueProcessor implements RequestDataValueProcessor
      * Invoked when a new form action is rendered. Not required for token logic. Required by interface.
      * @param request the current request
      * @param action the form action
+     * @param httpMethod the form HTTP method
      * @return the action to use, possibly modified
      */
-    public String processAction(HttpServletRequest request, String action) {
+    public String processAction(HttpServletRequest request, String action, String httpMethod) {
         return action;
     }
 
