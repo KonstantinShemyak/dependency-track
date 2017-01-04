@@ -261,6 +261,12 @@
 		<version>7.0</version>
 	</dependency>
 
+	<dependency>
+		<groupId>org.apache.geronimo.specs</groupId>
+		<artifactId>geronimo-osgi-locator</artifactId>
+		<version>1.0</version>
+		<type>jar</type>
+	</dependency>
 
         <!-- Spring Start -->
         <dependency>
